@@ -3,7 +3,7 @@ public class Perfect {
         
         int num = Integer.parseInt(args[0]);
         String numsString = Integer.toString(num);
-        String perf = (numsString + " is a perfect number sinse " + numsString + " = 1");
+        String perf = (numsString + " is a perfect number since " + numsString + " = 1");
         int sum = 1;
 
         for (int i = 2; i <= (num-1); i++ ){

@@ -4,12 +4,16 @@ public class DamkaBoard {
         String row = "";
 
         for (int i = 1 ;i <= n ; i++ ){
-            row = row + "*";
+            row = row + "* ";
         }
           for (int i = 1 ;i <= n ; i++ ){
-              System.out.println(row);
-          }
+             if(i%2==0){
+			System.out.println(" " +row);
+          }else {
+			System.out.println(row);
+		  }
    
     }
 
+}
 }
